@@ -42,6 +42,7 @@ end
 def run(songs) 
 # puts "Please enter a command:"
 # user = gets.strip
+user = ""
 
 while user != "exit"
 

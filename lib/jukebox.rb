@@ -48,7 +48,7 @@ while user != "exit"
 puts "Please enter a command:"
 user = gets.strip
 end
-binding.pry 
+ 
 if user < "list"
   list(songs)
 elsif user == "play"

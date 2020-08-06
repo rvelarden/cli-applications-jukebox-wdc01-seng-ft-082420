@@ -47,8 +47,6 @@ while user != "exit"
 
 puts "Please enter a command:"
 user = gets.strip
-end
- 
 if user < "list"
   list(songs)
 elsif user == "play"
@@ -58,4 +56,7 @@ elsif user == "help"
 elsif user "exit" 
   exit_jukebox
   end 
+end
+ 
+
 end 

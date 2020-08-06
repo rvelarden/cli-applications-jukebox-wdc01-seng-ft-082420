@@ -53,7 +53,7 @@ elsif user == "play"
   play(songs) 
 elsif user == "help" 
   help  
-elsif user "exit" 
+elsif user == "exit" 
   exit_jukebox
   end 
 end

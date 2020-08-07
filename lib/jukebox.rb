@@ -39,23 +39,24 @@ def exit_jukebox
   puts "Goodbye"
 end 
 
-def run 
-puts "Please enter a command:"
-user = gets.strip
+def run(songs) 
+
+user = ""
 
 while user != "exit"
 
 puts "Please enter a command:"
 user = gets.strip
-end
-binding.pry 
-if user < "list"
+if user == "list"
   list(songs)
 elsif user == "play"
   play(songs) 
 elsif user == "help" 
   help  
-elsif user "exit" 
+elsif user == "exit" 
   exit_jukebox
   end 
+end
+ 
+
 end 

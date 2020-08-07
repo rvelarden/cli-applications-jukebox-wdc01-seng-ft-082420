@@ -42,7 +42,7 @@ end
 def run(songs) 
 
 user = ""
-binding.pry 
+
 while user != "exit"
 
 puts "Please enter a command:"
